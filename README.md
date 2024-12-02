@@ -25,7 +25,7 @@ The repository is organized as follows:
 1. Clone the repository:
    ```bash
    git clone https://github.com/vmarin93/adventofcode_2024.git
-   cd aoc2024
+   cd adventofcode_2024
 
 
 ⚙️ Requirements
