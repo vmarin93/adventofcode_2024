@@ -2,7 +2,6 @@ def main():
     with open("input.txt") as f:
         lines = f.readlines()
     
-    #unsafe = [[7, 6, 4, 2, 1], [1, 2, 7, 8, 9], [9, 7, 6, 2, 1], [1, 3, 2, 4, 5], [8, 6, 4, 4, 1], [1, 3, 6, 7, 9]]
     safe = []
     
     for line in lines:
@@ -17,49 +16,7 @@ def main():
                 safe.append(temp)
                 break
 
-
     print(len(safe))
-
-
-#def remove_level(report):
-#    for i in range(len(report) - 1):
-#        if above_limits(report[i], report[i + 1]):
-#            if should_pop(report, i):
-#                report.pop(i)
-#                return
-#            if should_pop(report, i + 1):
-#                report.pop(i + 1)
-#                return
-#
-#    for i in range(len(report) - 2):
-#        if report[i] < report[i + 1] and report[i + 1] > report[i + 2]:
-#            if should_pop(report, i + 2):
-#                report.pop(i + 2)
-#                return
-#            if should_pop(report, i):
-#                report.pop(i)
-#                return
-#            if should_pop(report, i + 1):
-#                report.pop(i + 1)
-#                return
-#        if report[i] > report[i + 1] and report[i + 1] < report[i + 2]:
-#            if should_pop(report, i + 2):
-#                report.pop(1 + 2)
-#                return
-#            if should_pop(report, i):
-#                report.pop(i)
-#                return
-#            if should_pop(report, i + 1):
-#                report.pop(i + 1)
-#                return
-#    return
-
-def should_pop(report, i):
-    temp = report.copy()
-    temp.pop(i)
-    if is_safe(temp):
-        return True
-    return False
 
 
 def is_safe(report):
