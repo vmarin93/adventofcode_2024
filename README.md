@@ -29,7 +29,6 @@ The repository is organized as follows:
 ⚙️ Requirements
 
     Python 3.9 or later
-    Recommended: Install dependencies from requirements.txt (if used).
 
 
 ## ✨ Progress
