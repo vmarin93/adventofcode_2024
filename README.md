@@ -16,8 +16,6 @@ The repository is organized as follows:
   - `part1.py`: My Python solution for the first part of the day's puzzle.
   - `part2.py`: My Python solution for the second part of the day's puzzle.
 
-- The `utils/` directory contains reusable helper functions or classes, if applicable.
-
 ---
 
 ## 🧑‍💻 How to Run the Solutions
@@ -33,9 +31,6 @@ The repository is organized as follows:
     Python 3.9 or later
     Recommended: Install dependencies from requirements.txt (if used).
 
-To install any dependencies (if applicable):
-
-pip install -r requirements.txt
 
 ## ✨ Progress
 
